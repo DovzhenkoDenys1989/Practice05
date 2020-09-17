@@ -64,28 +64,17 @@ public class Lab4Test {
         // PART 3
          //3.1
          // TODO create two-dimensional array with size [3][4]
-      //   int [][] newArray = new int[3][4];
+         int [][] newArray = new int[3][4];
 
         //3.2
         // TODO fill array with any numbers in cycles.
-//        newArray [0][0] = 1;
-//        newArray [0][1] = 2;
-//        newArray [0][2] = 3;
-//        newArray [0][3] = 4;
-//        newArray [1][0] = 5;
-//        newArray [1][1] = 6;
-//        newArray [1][2] = 7;
-//        newArray [1][3] = 8;
-//        newArray [2][0] = 9;
-//        newArray [2][1] = 10;
-//        newArray [2][2] = 11;
-//        newArray [2][3] = 12;
-//        for (int i = 0; i < newArray.length; i++) {
-//            for (int j = 0; j < newArray[i].length; j++) {
-//                System.out.print(newArray[i][j] + " ");
-//            }
-//           System.out.println();
-//        }
+        for (int i = 0; i < newArray.length; i++) {
+            for (int j = 0; j < newArray[i].length; j++) {
+          newArray [i][j] = i;
+                System.out.print(newArray[i][j] + " ");
+            }
+           System.out.println();
+        }
         //3.3
         // TODO calc sum of all array elements and print result.
 //        int sum1 = 0;
